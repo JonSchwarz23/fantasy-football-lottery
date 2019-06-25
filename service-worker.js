@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fantasy-lottery-2019/precache-manifest.ee27d21b08b3bd0c71a7702bc55fb0dc.js"
+  "/fantasy-lottery-2019/precache-manifest.031549df9791651de8b2754becab0493.js"
 );
 
 self.addEventListener('message', (event) => {
