@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "JonSchwarz23.github.io/fantasy-lottery-2019/static/js/main.df426302.chunk.js",
-    "main.js.map": "JonSchwarz23.github.io/fantasy-lottery-2019/static/js/main.df426302.chunk.js.map",
-    "runtime~main.js": "JonSchwarz23.github.io/fantasy-lottery-2019/static/js/runtime~main.6cc469de.js",
-    "runtime~main.js.map": "JonSchwarz23.github.io/fantasy-lottery-2019/static/js/runtime~main.6cc469de.js.map",
-    "static/js/2.dc860891.chunk.js": "JonSchwarz23.github.io/fantasy-lottery-2019/static/js/2.dc860891.chunk.js",
-    "static/js/2.dc860891.chunk.js.map": "JonSchwarz23.github.io/fantasy-lottery-2019/static/js/2.dc860891.chunk.js.map",
-    "index.html": "JonSchwarz23.github.io/fantasy-lottery-2019/index.html",
-    "precache-manifest.debb0740de44b4033d952bca80e53e4a.js": "JonSchwarz23.github.io/fantasy-lottery-2019/precache-manifest.debb0740de44b4033d952bca80e53e4a.js",
-    "service-worker.js": "JonSchwarz23.github.io/fantasy-lottery-2019/service-worker.js"
+    "main.js": "/fantasy-lottery-2019/static/js/main.df426302.chunk.js",
+    "main.js.map": "/fantasy-lottery-2019/static/js/main.df426302.chunk.js.map",
+    "runtime~main.js": "/fantasy-lottery-2019/static/js/runtime~main.4dd052da.js",
+    "runtime~main.js.map": "/fantasy-lottery-2019/static/js/runtime~main.4dd052da.js.map",
+    "static/js/2.dc860891.chunk.js": "/fantasy-lottery-2019/static/js/2.dc860891.chunk.js",
+    "static/js/2.dc860891.chunk.js.map": "/fantasy-lottery-2019/static/js/2.dc860891.chunk.js.map",
+    "index.html": "/fantasy-lottery-2019/index.html",
+    "precache-manifest.8385e521b57262a4047a4ff73c9d32b8.js": "/fantasy-lottery-2019/precache-manifest.8385e521b57262a4047a4ff73c9d32b8.js",
+    "service-worker.js": "/fantasy-lottery-2019/service-worker.js"
   }
 }
