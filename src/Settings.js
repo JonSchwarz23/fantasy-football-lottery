@@ -33,14 +33,14 @@ function Settings(props) {
     }
 
     let handleSubmit = function() {
-        updateSettings(waitTime === "" || waitTime < 0 ? 4000 : waitTime, numberOfWinners === "" || numberOfWinners < 1 ? 4 : numberOfWinners);
+        updateSettings(waitTime === "" || waitTime < 0 ? 3000 : waitTime, numberOfWinners === "" || numberOfWinners < 1 ? 4 : numberOfWinners);
         closeModal();
     }
 
     return (
         <div>
             <h2 className="modalTitle" style={{display: "block"}}>Edit Team</h2>
-            <form onSubmit={handleSubmit}>
+            <form>
                 <div className="form-group">
                     <label htmlFor="numberOfWinners">Number of Teams Selected:</label>
                     <input id="numberOfWinners" className="form-control" onChange={handleWinnerChange} value={numberOfWinners}/>
@@ -50,8 +50,8 @@ function Settings(props) {
                     <label htmlFor="waitTime">Time Between Result Update:</label>
                     <input id="waitTime" className="form-control" onChange={handleTimeChange} value={waitTime}/>
                 </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
-                <button onClick={() => closeModal} className="btn btn-danger">Cancel</button>
+                <button onClick={handleSubmit} className="btn btn-primary">Submit</button>
+                <button onClick={closeModal} className="btn btn-danger">Cancel</button>
             </form>
         </div>
     )

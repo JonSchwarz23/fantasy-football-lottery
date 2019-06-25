@@ -7,6 +7,8 @@ import ReactModal from 'react-modal';
 import Results from './Results';
 import Settings from './Settings';
 
+var ls = require('local-storage');
+
 function App() {
 
     const wffl = [
@@ -24,15 +26,24 @@ function App() {
         {name: "Schrute Farms", balls: 15, owner: "Brandon Davis, Frank Gaccione"}
     ];
 
+    let pTeams = ls.get("teams");
+    if(!pTeams) pTeams = [];
+
+    let pWaitTime = ls.get("waitTime");
+    if(!pWaitTime) pWaitTime = 3000;
+
+    let pNumberOfWinners = ls.get("numberOfWinners");
+    if(!pNumberOfWinners) pNumberOfWinners = 4;
+
     const [runLottery, setRunLottery] = useState(false);
-    const [teams, setTeams] = useState([]);
+    const [teams, setTeams] = useState(pTeams);
     const [showAddTeamModal, setShowAddTeamModal] = useState(false);
     const [showEditTeamModal, setShowEditTeamModal] = useState(false);
     const [showSettingsModal, setShowSettingsModal] = useState(false);
     const [editTeamIndex, setEditTeamIndex] = useState(0);
     const [results, setResults] = useState([]);
-    const [waitTime, setWaitTime] = useState(5000);
-    const [numberOfWinners, setNumberOfWinners] = useState(4);
+    const [waitTime, setWaitTime] = useState(pWaitTime);
+    const [numberOfWinners, setNumberOfWinners] = useState(pNumberOfWinners);
 
     let calculateResults= function() {
 
@@ -40,6 +51,10 @@ function App() {
             alert("Add more teams I think this thing will break if you don't");
             return;
         }
+
+        ls.set("teams", teams);
+        ls.set("waitTime", waitTime);
+        ls.set("numberOfWinners", numberOfWinners);
 
 
         let oddsArr = [];

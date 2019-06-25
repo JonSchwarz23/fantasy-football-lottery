@@ -31,7 +31,7 @@ function EditTeam(props) {
     return (
         <div>
             <h2 className="modalTitle" style={{display: "block"}}>Edit Team</h2>
-            <form onSubmit={handleSubmit}>
+            <form>
                 <div className="form-group">
                     <label htmlFor="owner">Owner:</label>
                     <input id="owner" className="form-control" onChange={(e) => setOwner(e.target.value)} value={owner}/>
@@ -44,8 +44,8 @@ function EditTeam(props) {
                     <label htmlFor="pingPongBalls">Ping Pong Balls:</label>
                     <input id="pingPongBalls" className="form-control" onChange={handleBallsChange} value={balls}/>
                 </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
-                <button onClick={() => closeModal} className="btn btn-danger">Cancel</button>
+                <button onClick={handleSubmit} className="btn btn-primary">Submit</button>
+                <button onClick={closeModal} className="btn btn-danger">Cancel</button>
             </form>
         </div>
     )
