@@ -1,0 +1,101 @@
+#Everything {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20% 0 20%;
+}
+
+h1 {
+    font-size: 7vw;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin: 30px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin: 20px;
+}
+
+body.ReactModal__Body--open {
+    overflow: hidden;
+}
+
+.finalResults {
+    text-align: center;
+}
+
+.modalTitle {
+    margin: 30px 10px;
+    text-align: left
+}
+
+#lotteryResults
+{
+    display: flex;
+    margin-top: 50px;
+}
+
+#lotteryResults > div
+{
+    flex: auto;
+    text-align: center
+}
+
+.hiddenResult
+{
+    color: white;
+}
+
+.showResult
+{
+    color: black
+}
+
+#menuButtons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 0 5px 0;
+}
+
+#addButton {
+    width: 100%;
+    display: flex;
+    margin: 5px 0 5px 0;
+}
+
+button {
+    margin: 5px;
+}
+
+tr:hover {
+    background-color: yellow;
+}
+
+.Modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid gray;
+    width: 350px;
+    padding: 20px;
+}
+
+.Overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.6);
+}
+
+
