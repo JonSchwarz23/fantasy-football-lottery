@@ -39,7 +39,7 @@ function Settings(props) {
 
     return (
         <div>
-            <h2 className="modalTitle" style={{display: "block"}}>Edit Team</h2>
+            <h2 className="modalTitle" style={{display: "block"}}>Settings</h2>
             <form>
                 <div className="form-group">
                     <label htmlFor="numberOfWinners">Number of Teams Selected:</label>
