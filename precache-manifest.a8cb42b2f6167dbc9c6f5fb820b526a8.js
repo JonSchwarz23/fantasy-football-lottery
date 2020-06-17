@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb604389197084fc6b1599234562e205",
+    "revision": "8f38af31605189c7850a82e131927211",
     "url": "/fantasy-football-lottery/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fantasy-football-lottery/static/js/2.458802c5.chunk.js"
   },
   {
-    "revision": "65353c1307ce25911595",
-    "url": "/fantasy-football-lottery/static/js/main.52728fc8.chunk.js"
+    "revision": "c6caa5cd1f3f09f7fcd9",
+    "url": "/fantasy-football-lottery/static/js/main.02d6b9c9.chunk.js"
   },
   {
     "revision": "8dc4467ec754dcc21cab",
