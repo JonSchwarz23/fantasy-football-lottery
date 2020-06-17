@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "beaeec1d211f4b3849ddbf08bd9cb1d7",
+    "revision": "36ae05d1399fe9bd4591fb7b013aa2b0",
     "url": "/fantasy-lottery-2019/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fantasy-lottery-2019/static/js/2.458802c5.chunk.js"
   },
   {
-    "revision": "4a5cd1dd2a5f972fc20a",
-    "url": "/fantasy-lottery-2019/static/js/main.be53ade0.chunk.js"
+    "revision": "9b09ea3cffaf12e1fc5d",
+    "url": "/fantasy-lottery-2019/static/js/main.606ad804.chunk.js"
   },
   {
     "revision": "a0ac7d902c7b548b371a",
